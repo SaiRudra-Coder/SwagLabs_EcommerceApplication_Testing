@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" verbose="1">
+  <test name="MyTestCase">
+  <parameter name="yamlConfigurationPath" value="src/main/resources/Properties.yaml"></parameter>
+  <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+    <classes>
+      <class name="webapp.com.User"></class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,186 @@
+Url: "https://www.saucedemo.com/"
+Path: "src/main/resources/log4j.properties" 
+Yaml: "src/main/resources/Properties.yaml"
+
+
+# select any one option for user login
+# option1: standard
+# option2: glitch
+# option3: Lockedout
+# choose your option 
+#
+userLoginOption: "standard"
+ 
+
+LoginStatus: 
+ userNameSelector: ".login_credentials"
+ passwordSelector: ".login_password"
+ sendkeysUsernameSelector: "#user-name"
+ sendkeysPasswordSelector: "#password"
+ loginButton: ".submit-button"
+ homePageValidate: ".inventory_item_name"
+ 
+productSelection:
+ productsSelector: ".inventory_item_description"
+ afterProductdet: ".inventory_details_desc_container"
+ productClick: "//*[contains(text(), \"___\")]"
+ backButtonClick: ".back"
+ 
+addtoCartTrueScenario:
+ products: ".inventory_item_description"
+ productName: ".inventory_item_name"
+ productDesc: ".inventory_item_desc"
+ productprice: ".inventory_item_price"
+ productAddtoCart: ".btn_inventory"
+ beforeCartIcon: ".shopping_cart_link"
+ afterCartIcon: ".cart_item" 
+ 
+checkOut:
+ checkoutButton: "#checkout"
+ firstNameSel: "#first-name"
+ lastNameSel: "#last-name"
+ postCodeSel: "#postal-code"
+ continueButton: "#continue"
+ cartProducts: ".cart_item_label"
+ itemTotal: ".summary_subtotal_label"
+ taxPrice: ".summary_tax_label"
+ totalPrice: ".summary_total_label"
+ finishButton: "#finish"
+ orderPlaced: ".complete-header"
+ back: ".btn_small"
+ 
+addToCartFalseScenario:
+ products: ".inventory_item_description"
+ productName: ".inventory_item_name"
+ productDesc: ".inventory_item_desc"
+ productprice: ".inventory_item_price"
+ productAddtoCart: ".btn_inventory"
+ cartIcon: ".shopping_cart_link"
+ cartCount: ".shopping_cart_badge"
+ productCount: ".cart_item"
+ cartItem1: ".cart_item"
+ cart_button: ".cart_button"
+ cartItem2: ".cart_item"
+ icon_status: ".shopping_cart_badge"
+ back: ".back "
+ 
+ 
+validateCheckoutFalseScenario:
+ cartIconButton: ".shopping_cart_link"
+ checkOutButton: "#checkout"
+ firstName: "#first-name"
+ lastName: "#last-name"
+ postCode: "#postal-code"
+ continueButton: ".submit-button"
+ totalPrice: ".summary_total_label"
+ finishButton: "#finish"
+ orderPlaced: ".complete-header"
+ homePage: ".btn_small"
+ 
+
+validateCheckoutInformation:
+ cartIconButton: ".shopping_cart_link"
+ checkoutButton: "#checkout"
+ continueButton: ".submit-button"
+ errorValidation: ".error-message-container"
+ cancelButton: "#cancel"
+ continueShopButton: "#continue-shopping"
+ 
+ 
+
+validateProductsSorting: 
+ sortingProducts: ".inventory_item_description"
+ sortOptions: ".product_sort_container"
+ products: ".inventory_item_description"
+ 
+ 
+validateSocialIcons: 
+ twitter: ".social_twitter"
+ facebook: ".social_facebook"
+ linkedIn: ".social_linkedin"
+ 
+  
+logoutStatus:
+ sideButton: ".bm-burger-button"
+ logoutButton: "#logout_sidebar_link"
+ logoutValddate: "#login-button"
+ 
+
+sortingSelector: "active_option"
+
+Lockedout_user: 
+ loginStatus:
+  userNameSelector: ".login_credentials"
+  passwordSelector: ".login_password"
+  sendUserName: "#user-name"
+  sendPassword: "#password"
+  loginButton: ".submit-button"
+  errorMsgValidate: ".error-message-container"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

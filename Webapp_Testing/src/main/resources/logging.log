@@ -1,0 +1,71 @@
+2023-03-07 18:28:25 INFO  User:login_page:98 - Extracted Username = standard_user
+2023-03-07 18:28:27 INFO  User:login_page:110 - User name Entered successfully
+2023-03-07 18:28:27 INFO  User:login_page:111 - Extracted password = secret_sauce
+2023-03-07 18:28:27 INFO  User:login_page:116 - Password Entered Successfully
+2023-03-07 18:28:29 INFO  User:login_page:121 - Login button clicked successfully
+2023-03-07 18:28:29 INFO  User:login_page:126 - Home page successfully login
+2023-03-07 18:28:29 INFO  User:login_page:127 - TEST CASE PASSED!!
+2023-03-07 18:28:29 INFO  User:poductSelection:227 - Sauce Labs Backpack - selected successfuly
+2023-03-07 18:28:29 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:30 INFO  User:poductSelection:227 - Sauce Labs Bike Light - selected successfuly
+2023-03-07 18:28:30 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:30 INFO  User:poductSelection:227 - Sauce Labs Bolt T-Shirt - selected successfuly
+2023-03-07 18:28:30 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:31 INFO  User:poductSelection:227 - Sauce Labs Fleece Jacket - selected successfuly
+2023-03-07 18:28:31 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:31 INFO  User:poductSelection:227 - Sauce Labs Onesie - selected successfuly
+2023-03-07 18:28:31 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:31 INFO  User:poductSelection:227 - Test.allTheThings() T-Shirt (Red) - selected successfuly
+2023-03-07 18:28:31 INFO  User:poductSelection:243 - Before product details after selecting the product details both are same
+2023-03-07 18:28:32 INFO  User:addtoCartTrueScenario:300 - Successfully clicked 4 Random products
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:305 - card icon clicked successful
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:325 - Product description  and Price matched !!
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:326 - Test case PASSED
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:325 - Product description  and Price matched !!
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:326 - Test case PASSED
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:325 - Product description  and Price matched !!
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:326 - Test case PASSED
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:325 - Product description  and Price matched !!
+2023-03-07 18:28:33 INFO  User:addtoCartTrueScenario:326 - Test case PASSED
+2023-03-07 18:28:33 INFO  User:checkOut:382 - Checkout button clicked successfully completed
+2023-03-07 18:28:33 INFO  User:checkOut:387 - First Name entered success
+2023-03-07 18:28:33 INFO  User:checkOut:392 - Last name entered success
+2023-03-07 18:28:33 INFO  User:checkOut:397 - post code entered
+2023-03-07 18:28:34 INFO  User:checkOut:402 - Continue button clicked success
+2023-03-07 18:28:34 INFO  User:checkOut:418 - all products price and item total price both are matched
+2023-03-07 18:28:34 INFO  User:checkOut:424 - the adding of tax price and iteam price matched to total price
+2023-03-07 18:28:34 INFO  User:checkOut:429 - Finish button working properly
+2023-03-07 18:28:34 INFO  User:checkOut:434 - Your order successfully placed !!
+2023-03-07 18:28:34 INFO  User:checkOut:435 - TEST CASE PASSED For checkedout the product
+2023-03-07 18:28:36 INFO  User:addToCartFalseScenario:499 - Successfully clicked 4 Random products
+2023-03-07 18:28:36 INFO  User:addToCartFalseScenario:511 - Cart feature is working as we expected 
+2023-03-07 18:29:16 INFO  User:removeProduct:400 - Cart Items are empty 
+2023-03-07 18:29:56 ERROR User:explicitlyWaits:69 - The command did not execute or complete within wait time
+2023-03-07 18:29:56 INFO  User:addToCartFalseScenario:524 - TEST CASE PASSED for add to cart false scenario
+2023-03-07 18:29:57 INFO  User:validateCheckoutFalseScenario:564 - Cart icon clicked directly without adding any items to cart
+2023-03-07 18:29:57 INFO  User:validateCheckoutFalseScenario:570 - Check out buttton clicked successfully
+2023-03-07 18:29:58 INFO  User:validateCheckoutFalseScenario:595 - Finish button successfully clicked
+2023-03-07 18:29:58 INFO  User:validateCheckoutFalseScenario:600 - Your order successfully placed !!
+2023-03-07 18:29:58 INFO  User:validateCheckoutFalseScenario:601 - TEST CASE FAILED for validate Checkout False Scenario 
+2023-03-07 18:29:58 INFO  User:validateCheckoutInformation:677 - Cart icon clicked directly without adding any items to cart
+2023-03-07 18:29:58 INFO  User:validateCheckoutInformation:682 - Check out buttton clicked successfully
+2023-03-07 18:29:58 INFO  User:validateCheckoutInformation:687 - Continue button clicked successfully
+2023-03-07 18:29:58 INFO  User:validateCheckoutInformation:692 - Its shows error, TEST CASE PASSED for validate Checkout Information
+2023-03-07 18:30:00 INFO  User:sortingDropDown:606 - sorting based on product Name (Z to A) option is clicked 
+2023-03-07 18:30:00 INFO  User:validateProductsSorting:754 - Successfully sorted the product names based on Name (Z to A)
+2023-03-07 18:30:00 INFO  User:validateProductsSorting:755 - TEST CASE PASSED For validate Products Sorting
+2023-03-07 18:30:00 INFO  User:sortingDropDown:606 - sorting based on product Price (low to high) option is clicked 
+2023-03-07 18:30:00 INFO  User:validateProductsSorting:754 - Successfully sorted the product names based on Price (low to high)
+2023-03-07 18:30:00 INFO  User:validateProductsSorting:755 - TEST CASE PASSED For validate Products Sorting
+2023-03-07 18:30:01 INFO  User:sortingDropDown:606 - sorting based on product Price (high to low) option is clicked 
+2023-03-07 18:30:01 INFO  User:validateProductsSorting:754 - Successfully sorted the product names based on Price (high to low)
+2023-03-07 18:30:01 INFO  User:validateProductsSorting:755 - TEST CASE PASSED For validate Products Sorting
+2023-03-07 18:30:05 INFO  User:validateSocialIcons:790 - .social_twitter icon clicked
+2023-03-07 18:30:05 INFO  User:validateSocialIcons:790 - .social_facebook icon clicked
+2023-03-07 18:30:06 INFO  User:validateSocialIcons:790 - .social_linkedin icon clicked
+2023-03-07 18:30:44 INFO  User:validateSocialIcons:809 - successfully redirected to new window
+2023-03-07 18:30:44 INFO  User:validateSocialIcons:810 - TEST CASE PASSED For validate Social Icons
+2023-03-07 18:30:44 INFO  User:logout_page:175 - Slide bar clicked
+2023-03-07 18:30:45 INFO  User:logout_page:180 - Logout button clicked
+2023-03-07 18:30:45 INFO  User:logout_page:185 - successfully Logged out
+2023-03-07 18:30:45 INFO  User:logout_page:186 - TEST CASE PASSED For logout status
